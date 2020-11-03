@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium1.WebDriverBasicLocatorsByNameTest">
+      <class name="com.selenium1.login.FirstWebAppLoginTest">
         <methods>
+          <include name="login"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="testGetInfoAboutName"/>
         </methods>
-      </class> <!-- com.selenium1.WebDriverBasicLocatorsByNameTest -->
+      </class> <!-- com.selenium1.login.FirstWebAppLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

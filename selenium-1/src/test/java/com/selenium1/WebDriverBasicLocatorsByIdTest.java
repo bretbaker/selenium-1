@@ -10,21 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class WebDriverBasicLocatorsByIdTest {
-
-	private WebDriver driver;
-
-	@BeforeTest
-	public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\bretb\\Desktop\\chrome-driver-selenium\\chromedriver.exe");
-		driver = new ChromeDriver();
-	}
-
-	@AfterTest
-	public void afterTest() {
-		driver.quit();
-	}
+public class WebDriverBasicLocatorsByIdTest extends AbstractChromeWebDriverTest {
 
 	@Test
 	public void testTitle() {

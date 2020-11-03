@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5631" started-at="2020-11-02T21:05:50Z" finished-at="2020-11-02T21:05:56Z">
+  <suite name="Default suite" duration-ms="11829" started-at="2020-11-03T14:57:30Z" finished-at="2020-11-03T14:57:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5631" started-at="2020-11-02T21:05:50Z" finished-at="2020-11-02T21:05:56Z">
-      <class name="com.selenium1.WebDriverBasicLocatorsByNameTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium1.WebDriverBasicLocatorsByNameTest@12e61fe6]" name="beforeTest" is-config="true" duration-ms="4391" started-at="2020-11-02T21:05:50Z" finished-at="2020-11-02T21:05:55Z">
+    <test name="Default test" duration-ms="11829" started-at="2020-11-03T14:57:30Z" finished-at="2020-11-03T14:57:42Z">
+      <class name="com.selenium1.login.FirstWebAppLoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium1.login.FirstWebAppLoginTest@5e316c74]" name="beforeTest" is-config="true" duration-ms="4812" started-at="2020-11-03T14:57:30Z" finished-at="2020-11-03T14:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testGetInfoAboutName()[pri:0, instance:com.selenium1.WebDriverBasicLocatorsByNameTest@12e61fe6]" name="testGetInfoAboutName" duration-ms="359" started-at="2020-11-02T21:05:55Z" finished-at="2020-11-02T21:05:55Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.selenium1.login.FirstWebAppLoginTest@5e316c74]" name="login" duration-ms="6126" started-at="2020-11-03T14:57:35Z" finished-at="2020-11-03T14:57:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetInfoAboutName -->
-        <test-method status="PASS" signature="testTitle()[pri:0, instance:com.selenium1.WebDriverBasicLocatorsByNameTest@12e61fe6]" name="testTitle" duration-ms="123" started-at="2020-11-02T21:05:55Z" finished-at="2020-11-02T21:05:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium1.WebDriverBasicLocatorsByNameTest@12e61fe6]" name="afterTest" is-config="true" duration-ms="715" started-at="2020-11-02T21:05:55Z" finished-at="2020-11-02T21:05:56Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium1.login.FirstWebAppLoginTest@5e316c74]" name="afterTest" is-config="true" duration-ms="805" started-at="2020-11-03T14:57:41Z" finished-at="2020-11-03T14:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.selenium1.WebDriverBasicLocatorsByNameTest -->
+      </class> <!-- com.selenium1.login.FirstWebAppLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
