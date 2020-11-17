@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bretb\AppData\Local\Temp\testng-eclipse-365613530\testng-customsuite.xml</span>
+                    <span>C:\Users\bretb\AppData\Local\Temp\testng-eclipse--1788019343\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium1.login.FirstWebAppLoginTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium1.ActionsBasicTest" hash-for-method="testBasicActions">testBasicActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium1.ActionsBasicTest" hash-for-method="testBasicActions_Combine">testBasicActions_Combine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium1.ActionsBasicTest" hash-for-method="testBasicDragAndDrop">testBasicDragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium1.ActionsBasicTest" hash-for-method="testBasicDragAndDrop_Complicated">testBasicDragAndDrop_Complicated</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +135,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.selenium1.login.FirstWebAppLoginTest</span>
+              <span class="class-name">com.selenium1.ActionsBasicTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="testBasicActions">
+                  </a> <!-- testBasicActions -->
+                  <span class="method-name">testBasicActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasicActions_Combine">
+                  </a> <!-- testBasicActions_Combine -->
+                  <span class="method-name">testBasicActions_Combine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasicDragAndDrop">
+                  </a> <!-- testBasicDragAndDrop -->
+                  <span class="method-name">testBasicDragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasicDragAndDrop_Complicated">
+                  </a> <!-- testBasicDragAndDrop_Complicated -->
+                  <span class="method-name">testBasicDragAndDrop_Complicated</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bretb\AppData\Local\Temp\testng-eclipse-365613530\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bretb\AppData\Local\Temp\testng-eclipse--1788019343\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,11 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.selenium1.login.FirstWebAppLoginTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;login&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.selenium1.login.FirstWebAppLoginTest --&gt;
+      &lt;class name=&quot;com.selenium1.ActionsBasicTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,16 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.selenium1.login.FirstWebAppLoginTest')
-data.setCell(0, 3, 6126);
+data.setCell(0, 1, 'testBasicActions')
+data.setCell(0, 2, 'com.selenium1.ActionsBasicTest')
+data.setCell(0, 3, 11366);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBasicDragAndDrop')
+data.setCell(1, 2, 'com.selenium1.ActionsBasicTest')
+data.setCell(1, 3, 5850);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBasicActions_Combine')
+data.setCell(2, 2, 'com.selenium1.ActionsBasicTest')
+data.setCell(2, 3, 5668);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testBasicDragAndDrop_Complicated')
+data.setCell(3, 2, 'com.selenium1.ActionsBasicTest')
+data.setCell(3, 3, 5558);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -223,18 +267,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.selenium1.login.FirstWebAppLoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.selenium1.ActionsBasicTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">4876 ms</span>
+                <span class="method-name">testBasicActions</span>
+                <span class="method-start">3765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBasicActions_Combine</span>
+                <span class="method-start">15133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBasicDragAndDrop</span>
+                <span class="method-start">20803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBasicDragAndDrop_Complicated</span>
+                <span class="method-start">26654 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">11014 ms</span>
+                <span class="method-start">32219 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

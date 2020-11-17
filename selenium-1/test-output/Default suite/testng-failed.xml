@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium1.login.FirstWebAppLoginTest">
+      <class name="com.selenium1.PlayingWithModalWindowAndWaitsTest">
         <methods>
-          <include name="login"/>
+          <include name="playingWithModalWindows_expectingAException"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.selenium1.login.FirstWebAppLoginTest -->
+      </class> <!-- com.selenium1.PlayingWithModalWindowAndWaitsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
